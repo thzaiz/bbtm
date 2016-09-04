@@ -1,0 +1,26 @@
+.da-thumbs {
+	list-style: none;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+.da-thumbs li {
+	background: #fff;
+	position: relative;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.da-thumbs li .box-overlay-wrapper,
+.da-thumbs li .box-overlay-wrapper img {
+	display: block;
+	position: relative;
+}
+.da-thumbs li .box-overlay-wrapper {
+	overflow: hidden;
+}
+.da-thumbs li .box-overlay-wrapper .box-overlay {
+	position: absolute;
+	background: #333;
+	background: rgba(159,206,78,0.75);
+	width: 100%;
+	height: 100%;
+}

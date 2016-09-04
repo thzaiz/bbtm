@@ -1,0 +1,183 @@
+@media (min-width: 1200px) {
+	.header-offcanvas.header-offcanvas-always-show {
+		-webkit-box-shadow: 0 0 6px 1px rgba(0,0,0,0.17);
+		box-shadow: 0 0 6px 1px rgba(0,0,0,0.17);
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+	.container {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.container, .container-fluid {
+		width: 100%;
+	}
+}
+.footer-info, .footer-social {
+    background-color: #f8f8f8;
+}
+.footer-info, .footer-social a {
+    color: #000000;
+}
+.offcanvas-nav>li>a, .navbar-default .navbar-nav>li>a {
+    font-weight: 500;
+}
+.tp-caption.black-caption {
+	font-size: 48px; 
+	line-height: 55px; 
+	font-weight: 300; 
+	color: #000;
+	text-transform:left;
+}
+.tp-caption.black-caption strong {
+	font-weight: 600!important;
+}
+.tp-caption.desc {
+	font-size: 18px; 
+	line-height: 24px; 
+	font-weight: 400; 
+	color: #000;
+}
+.tp-caption.slide-button a.btn-outline {
+	color: #000;
+}
+.tp-caption.slide-button a.btn-outline:hover {
+	color: #fff;
+}
+.parallax-background {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image: url(../images/background/background_1920x500.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-info {
+	color: #444;
+}
+.contact-info i {
+	color: #2A2A2A !important;
+	font-size: 42px !important;
+}
+.contact-info .content {
+	padding-top: 6px;
+}
+.readmore-link a {
+    display: inline-block;
+    vertical-align: top;
+    color: #888;
+    font-size: 85%;
+    text-transform: uppercase;
+	font-weight: 300;
+}
+.related-post .readmore-link {
+    font-weight: 300;
+}
+.readmore-link a:before {
+    content: "\f0da";
+    position: relative;
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    speak: none;
+	margin-right: 5px;
+}
+.readmore-link a:after {
+	display: none;
+}
+.loadmore-action .btn-loadmore {
+    display: block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: .5714285714285714rem 2rem;
+    font-size: 13px;
+    line-height: 1.6;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
+    text-decoration: none;
+    background: transparent;
+    border: 2px solid #333;
+    text-transform: uppercase;
+    color: #333;
+    position: relative;
+    font-weight: 600;
+    display: table;
+    margin: 0 auto;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+	width: 100%;
+}
+.loadmore-action .btn-loadmore:hover, 
+.loadmore-action .btn-loadmore:focus {
+    color: #fff;
+    border-color: #9fce4e;
+    background: #9fce4e;
+}
+.loadmore-action .btn-loadmore:after {
+    content: "\f067";
+    position: relative;
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
+.loadmore-action .btn-loadmore:after {
+    margin-left: 5px;
+}
+@media (min-width: 992px) {
+	.single .entry-info, .single .post-navigation, 
+	.single .related-post, .single .author-info, 
+	.single .comments-area {
+		width: 66.66666666666666%;
+		margin: 0 auto;
+	}
+}
+.post-navigation .prev-post>span,
+.post-navigation .next-post>span {
+    font-size: 85%;
+    text-transform: uppercase;
+    color: #888;
+	font-weight: 300;
+}
+.post-navigation {
+	border-bottom: none;
+}
+.single .comments-area {
+	border-top: none;
+}
+.single .comment-form .form-submit input[type="submit"] {
+    width: 100%;
+	background-color: #333;
+    border-color: #333;
+	color: #fff;
+	font-weight: 300;
+	text-transform: none;
+}
+.single .comment-form .form-submit input[type="submit"]:hover {
+    background-color: #666;
+    border-color: #666;
+}
+.map-wrapper {
+	padding: 5px 5px 0 5px;
+	background-color: #f7f7f7;
+}
+.map-wrapper iframe {
+    width: 100%;
+}

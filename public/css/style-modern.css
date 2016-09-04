@@ -1,0 +1,105 @@
+.tp-caption.modern-small-black {
+	color: rgba(0,0,0,1.00);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Poppins;
+    padding: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.tp-caption.big_primary.alt {
+    color: rgba(159,206,78,1.00);
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: Poppins;
+    padding: 0;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.tp-caption.big_primary.alt.big_black {
+	color: #000;
+}
+.tp-caption a.btn-black-outline {
+	color: #000;
+}
+.tp-caption a.btn-black-outline:hover {
+	color: #fff;
+}
+body {
+    background: #f9f9f9
+}
+
+body .content-container {
+    background: #f9f9f9
+}
+
+body .shop-toolbar .view-mode,
+body .form-flat-select {
+    background: #fff
+}
+
+body .posts-layout-default .entry-featured,
+body .posts-layout-center .entry-featured {
+    margin: 0
+}
+
+body .posts-layout-default .entry-info,
+body .posts-layout-center .entry-info {
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-top: 0;
+    -webkit-box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.06)
+}
+
+body .posts .posts-wrap.posts-layout-grid .entry-info,
+body .posts .posts-wrap.posts-layout-masonry .entry-info {
+    background: #fff;
+    -webkit-box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.06)
+}
+
+body .comment-form-author input,
+body .comment-form-email input,
+body .comment-form-url input,
+body .comment-form-comment input,
+body .comment-form-author textarea,
+body .comment-form-email textarea,
+body .comment-form-url textarea,
+body .comment-form-comment textarea {
+    background: #fff
+}
+
+body .commerce table.cart thead th,
+body .commerce .quantity input.qty {
+    background: transparent
+}
+
+body .commerce .commerce-checkout-login,
+body .commerce .commerce-checkout-coupon {
+    border: 1px solid #e1e1e1
+}
+
+body table {
+    background: transparent
+}
+
+body .form-control,
+body .form-flat-radio i,
+body .form-flat-checkbox i,
+body .select2-container .select2-choice {
+    background: #fff
+}
+
+body .form-control.submit {
+	color: #fff;
+    background-color: #333;
+    border-color: #333;
+}
